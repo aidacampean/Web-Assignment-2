@@ -1,12 +1,12 @@
 <?php
-ini_set("session.save_path", "/home/unn_w18002348/sessionData");
+ini_set("session.save_path", "/home/w1888888/sessionData");
 session_start();
 
 function getConnection()
 {
     try {
         $connection = new PDO("mysql:host=localhost;dbname=unn_w18002348",
-            "unn_w18002348", "akatsuki07");
+            "w1888888", "xxxxx");
         $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $connection;
     } catch (Exception $e) {
