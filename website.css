@@ -1,0 +1,219 @@
+/* v 1 11/12/2018
+ * Last updated 20/12/2018
+ * Author: Aida Campean
+ */
+
+
+.title h1 {
+    color: #282e34;
+    font-family: 'Playfair Display', serif;
+    margin-left: 300px;
+    margin-top:20px;
+    font-size:60px;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8
+{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+
+header {
+    background-image: url("annie-spratt-227757-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: center;
+    min-height: 10px;
+    padding-top: 10px;
+    border-bottom: darkslategrey 2px solid;
+}
+
+header a
+{
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:20px;
+    position: relative;
+    display:block;
+}
+
+ul{
+    margin-left:400px;
+}
+ul li
+{
+    display: inline-block;
+    list-style:none;
+}
+
+ul li a
+{
+    padding:5px 20px;
+    text-transform:uppercase;
+    text-decoration: none;
+    color: #282e34;
+}
+
+.pimg2{
+
+    background-image:url("oriento-744199-unsplash.jpg");
+    min-height:400px;
+}
+.pimg3
+{
+    background-image:url("sebastian-schuppik-606199-unsplash.jpg");
+    min-height:400px;
+}
+.pimg4{
+    background-image:url("ablimit-ablet-633088-unsplash.jpg");
+    min-height:400px;
+}
+.pimg5{
+    background-image:url("annie-spratt-1549400-unsplash.jpg");
+    min-height:400px;
+}
+.pimg6{
+    background-image:url("chris-lawton-165884-unsplash.jpg");
+    min-height:400px;
+    background-position:center;
+}
+.pimg7{
+    background-image:url("chuttersnap-1306491-unsplash.jpg");
+    min-height:400px;
+    background-position:center;
+}
+.pimg8{
+    background-image:url("alexandre-godreau-510220-unsplash.jpg");
+    min-height:400px;
+    background-position:center;
+}
+.section{
+    text-align:center;
+    padding:50px 80px;
+}
+.section-light{
+    background-color:#f4f4f4;
+    color:#666;
+}
+.section-dark{
+    background-color:#282e34;
+    color:#ddd;
+}
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:white;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+.ptext .border
+{
+    background-color:#dfdfdf;
+    color:#000;
+    padding:20px;
+
+}
+
+@media(max-width:569px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment:scroll;
+    }
+}
+
+#newsletter
+{
+    padding:15px;
+    color:black;
+}
+#newsletter .subscribe h1
+{
+    float:left;
+    color: black;
+    font-family: 'Exo', sans-serif;
+    font-size:20px;
+}
+#newsletter .subscribe form
+{
+    float:right;
+}
+#newsletter input[type='email']
+{
+    padding:4px;
+    height:10px;
+    width:300px;
+}
+
+
+footer
+{
+    margin-top:40px;
+    text-align:center;
+    font-size: 15px;
+    border-top: darkslategrey 1px solid;
+    background-color: #282e34;
+    height:300px;
+
+}
+input {
+
+    width: 295px;
+    display: block;
+    border: 1px solid #999;
+    height: 25px;
+}
+form {
+    padding-top:20px;
+    padding-left:650px;
+    padding-bottom:30px;
+    margin:0 auto;
+}
+
+.email, .post
+{
+    padding-left:130px;
+}
+.img
+{
+    display:inline;
+}
+.text{
+    color: #dddddd;
+}
+
+.credits {
+    padding-left:60px;
+}
+.credits h1, h2 {
+    padding-left:100px;
+}
+.security
+{
+    padding-left:60px;
+}
+.security h1
+{
+    padding-left:100px;
+}
+
+.titlecredits h1 {
+    padding-left:700px;
+}
+.findoutmore h1 {
+    padding-left:600px;
+}
+
+
+
+
+
+
+
